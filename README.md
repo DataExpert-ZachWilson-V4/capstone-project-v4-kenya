@@ -29,9 +29,9 @@ The goal of this project to try and analyze the Stack Exchange data. It aims to 
 
 ### **3. Tech Stack ( Might change)**
 Given the lack of cloud budget to implement this project, I plan to use an a local dockerised data lakehouse made up of:
-
 - **MinIO:** MinIO will act as the core service for underlying storage. It is a S3 Compatible Object Storage
 - **Postgres:** Postgres will act as our backend service for Airflow database and Hive Metastore. It will also serve as the data warehouse.
 - **Hive-Metastore:**
 Hive Metastore to persist our data using database fashion and manage the metadata of dataset in MinIO.
 - **Apache Spark:**  Now we have everything except Apache Spark for distributed computing
+
